@@ -1,0 +1,26 @@
+body {
+	background-image: url("http://colourlovers.com.s3.amazonaws.com/images/patterns/1358/1358751.png?1300427233");
+    background-color: #cccccc;
+}
+
+main {
+	text-align: center;
+	background-color: #000;
+    border: 1px solid black;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 400px;
+	height: 300px;
+	position: absolute;
+	left: 50%;
+	top: 50%; 
+	margin-left: -200px;
+	margin-top: -150px; 
+}
+
+h1 {
+	color: rgb(219,211,195);
+}
+
+h2, h3 {
+	color: white;
+}
