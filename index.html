@@ -3,21 +3,29 @@
 
 	<head>
 		<meta charset="UTF-8">
-		<title>Radom quotation</title>
+		<title>Countries - information</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
     	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
 	</head>
 	
-	<body>
-		<h1>Wyszukiwarka krajów</h1>
-		<button id="search">Szukaj kraju</button>
-		<input id="country-name" type="text" />
-		<h2>Lista krajów</h2>
-		<ul id="countries">
-			<li>Brak danych</li>
-		</ul>
+	<body>		
+		<div id="w">
+			<div id="content">
+				<h1>Wyszukiwarka krajów</h1>
+				<div id="searchfield">
+					<div id="search">Szukaj kraju</div><br>
+					<form><input type="text" name="currency" class="biginput" id="country-name"></form>
+				</div>
+				<h2>Lista krajów</h2>
+				<ul id="countries">
+					<li>Brak danych</li>
+				</ul>
+			</div>
+		</div>
 		
 		<script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     	<script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/jquery.autocomplete.min.js"></script>
 	</body>
 </html>
